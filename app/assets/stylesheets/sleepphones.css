@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  text-shadow: 0.1em 0.1em #eeeeee;
 }
 
 ul.nav {
@@ -27,23 +28,48 @@ li [class^="icon-"]:hover {
   text-align: center;
 }
 
-.container img.welcome-splash {
+.main img.welcome-splash {
   width: 902px;
   height: 676.5px;
-  box-shadow: 0px 40px 50px rgba(0, 0, 0, .2);
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, .2);
 }
 
-.container p.quote {
+.main p.quote {
   font-size: 22px;
   color: #777777;
   position: absolute;
-  top: 105px;
-  left: 500px;
+  top: 20%;
+  left: 46%;
   width: 100%;
 }
 
-.container {
+.main {
   width: 960px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-fluid {
+  padding-top: 88px;
+  margin-bottom: 80px;
+}
+
+.row-fluid .description {
+  padding-right: 50px;
+  padding: 15px;
+}
+
+.main .light {
+}
+
+.main .dark {
+  background: #ddccdd;
+}
+
+.navbar-inner {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar .brand {

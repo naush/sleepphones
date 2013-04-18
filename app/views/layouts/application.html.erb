@@ -21,11 +21,11 @@
           <a class="brand" href="#">臺灣綿羊聲籟</a>
           <div class="container-fluid nav-collapse">
             <ul class="nav">
-              <li><a href="/"><i class="icon-home"></i></a></li>
-              <li><a href="/"><i class="icon-headphones"></i></a></li>
-              <li><a href="/"><i class="icon-shopping-cart"></i></a></li>
-              <li><a href="/"><i class="icon-bullhorn"></i></a></li>
-              <li><a href="/"><i class="icon-envelope"></i></a></li>
+              <li><a href="#home"><i class="icon-home"></i></a></li>
+              <li><a href="#product"><i class="icon-headphones"></i></a></li>
+              <li><a href="#shopping"><i class="icon-shopping-cart"></i></a></li>
+              <li><a href="#news"><i class="icon-bullhorn"></i></a></li>
+              <li><a href="#contact"><i class="icon-envelope"></i></a></li>
             </ul>
           </div>
         </div>
@@ -33,11 +33,8 @@
     </div>
 
     <div class="container-fluid">
-      <div class="row-fluid">
-        <%= bootstrap_flash %>
-        <%= yield %>
-      </div>
-
+      <%= bootstrap_flash %>
+      <%= yield %>
     </div>
 
     <footer class="footer">
