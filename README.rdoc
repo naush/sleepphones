@@ -1,0 +1,13 @@
+Color Schemes
+
+#443344
+#666699
+#eeeeee
+#bbaabb
+#997777
+
+#554455
+#8888bb
+#ffffff
+#ddccdd
+#bb8899
