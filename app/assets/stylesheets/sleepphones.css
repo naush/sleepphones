@@ -29,8 +29,6 @@ li [class^="icon-"]:hover {
 }
 
 .main img.welcome-splash {
-  width: 902px;
-  height: 676.5px;
   box-shadow: 0px 20px 50px rgba(0, 0, 0, .2);
 }
 
