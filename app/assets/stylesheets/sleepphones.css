@@ -38,13 +38,14 @@ li [class^="icon-"]:hover {
   font-size: 22px;
   color: #777777;
   position: absolute;
-  top: 20%;
+  top: 18%;
   left: 46%;
   width: 100%;
 }
 
 .main {
   width: 960px !important;
+  margin-top: -20px;
   margin-left: auto;
   margin-right: auto;
 }
