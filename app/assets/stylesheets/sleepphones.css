@@ -97,11 +97,20 @@ h1.heading {
   width: 100%;
   text-align: center;
   font-size: 30px;
+  display: block;
 }
 
 .row-fluid.media {
   margin-bottom: 0;
   background: #eeeeee;
+}
+
+.row-fluid.media.top {
+  height: 140px;
+}
+
+.row-fluid.media.bottom {
+  height: 280px;
 }
 
 h1#media {
