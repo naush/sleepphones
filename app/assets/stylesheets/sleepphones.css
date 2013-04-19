@@ -47,21 +47,20 @@ li [class^="icon-"]:hover {
   margin-right: auto;
 }
 
+h1.heading {
+  padding-top: 88px;
+  text-align: center;
+}
+
 .row-fluid {
   padding-top: 88px;
   margin-bottom: 80px;
 }
 
-.row-fluid .description {
+.row-fluid .product-description {
   padding-right: 50px;
   padding: 15px;
-}
-
-.main .light {
-}
-
-.main .dark {
-  background: #ddccdd;
+  background: #eeeeee;
 }
 
 .navbar-inner {
@@ -75,4 +74,26 @@ li [class^="icon-"]:hover {
 
 .navbar .brand {
   padding-top: 13px;
+}
+
+.media-logo {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+
+.media-quote {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.row-fluid.media {
+  margin-bottom: 0;
+  background: #eeeeee;
+}
+
+h1#media {
+  margin-bottom: 99px
 }
