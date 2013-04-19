@@ -17,6 +17,14 @@ li [class^="icon-"]:hover {
   color: #666699;
 }
 
+li [class$="-media"] {
+  color: #bb8899;
+}
+
+li [class$="-media"]:hover {
+  color: #997777;
+}
+
 .footer {
   padding: 30px 0;
   margin-top: 70px;
