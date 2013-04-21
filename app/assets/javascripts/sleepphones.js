@@ -1,6 +1,10 @@
 $(document).ready(function() {
-  $('.flip').quickFlip();
+  $('ul.nav a').tooltip({
+    'selector': '',
+    'placement': 'bottom'
+  });
 
+  $('.flip').quickFlip();
   var flip = function() {
     var random = Math.round(Math.random() * $('.flip').size());
     var target = $($('.flip')[random]);

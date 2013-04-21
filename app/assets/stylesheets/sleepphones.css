@@ -7,6 +7,7 @@ html, body {
 ul.nav {
   font-size: 28px;
   float: right !important;
+  text-shadow: none;
 }
 
 li [class^="icon-"] {
