@@ -117,3 +117,11 @@ h1.heading {
 h1#media {
   margin-bottom: 99px
 }
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #8888bb;
+}
+
+.tooltip-inner {
+  background-color: #8888bb;
+}
