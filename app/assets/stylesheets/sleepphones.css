@@ -39,7 +39,7 @@ li [class^="icon-"]:hover {
 }
 
 .footer {
-  padding: 27px 0;
+  padding: 107px 0 10px 0;
   border-top: 1px solid #e5e5e5;
   background-color: #f5f5f5;
 }
@@ -48,7 +48,12 @@ li [class^="icon-"]:hover {
   text-align: center;
 }
 
-.footer .copy a {
+.footer .notes {
+  text-align: center;
+  font-size: 22px;
+}
+
+.footer .notes a {
   text-decoration: none;
 }
 
