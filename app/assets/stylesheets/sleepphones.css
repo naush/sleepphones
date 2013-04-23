@@ -31,7 +31,7 @@ li [class$="-media"]:hover {
 }
 
 .footer {
-  padding: 30px 0;
+  padding: 27px 0;
   border-top: 1px solid #e5e5e5;
   background-color: #f5f5f5;
 }
@@ -41,11 +41,34 @@ li [class$="-media"]:hover {
 }
 
 .home {
-  background: #C7BCDD;
+  background: #f5f5f5;
 }
 
-.media, .shopping {
+.media {
   background: #eeeeee;
+}
+
+.shopping {
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #f5f5f5;
+}
+
+.shopping .media-logo a {
+  outline: none;
+  border: 0px none transparent;
+  text-decoration: none;
+}
+
+.shopping .media-logo img {
+  margin: auto;
+}
+
+.shopping .media-logo {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: inline;
 }
 
 .home {
@@ -56,8 +79,19 @@ li [class$="-media"]:hover {
   text-align: center;
 }
 
-div.shopping {
+.shopping {
   height: 100%;
+}
+
+.shopping .row-fluid {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+}
+
+.product .row-fluid {
+  margin-bottom: 0;
+  padding-bottom: 40px;
 }
 
 .home img.welcome-splash {

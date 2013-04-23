@@ -1,6 +1,5 @@
 $(document).ready(function() {
   $('ul.nav a').tooltip({
-    'selector': '',
     'placement': 'bottom'
   });
 
