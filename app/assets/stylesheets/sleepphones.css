@@ -41,7 +41,9 @@ li [class^="icon-"]:hover {
 .footer {
   padding: 10px 0 2px 0;
   border-top: 1px solid #e5e5e5;
-  background-color: #f5f5f5;
+  color: #f5f5f5;
+  background-color: #666699;
+  text-shadow: none;
 }
 
 .footer .copy {
@@ -55,6 +57,7 @@ li [class^="icon-"]:hover {
 
 .footer .notes a {
   text-decoration: none;
+  color: #f5f5f5;
 }
 
 .home {
@@ -75,6 +78,7 @@ li [class^="icon-"]:hover {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
   background-color: #f5f5f5;
+  box-shadow: 0 0 40px rgba(125, 113, 100, 0.4) inset;
 }
 
 .shopping .media-logo a {
