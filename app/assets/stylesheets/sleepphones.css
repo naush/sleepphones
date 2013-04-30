@@ -146,10 +146,17 @@ li [class^="icon-"]:hover {
 
 .home p.quote {
   font-size: 36px;
+  line-height: 36px;
   color: #777777;
   position: absolute;
   top: 18%;
   left: 38%;
+}
+
+.home p.quote .quote-emphasis {
+  display: block;
+  margin-left: 339px;
+  margin-top: 36px;
 }
 
 .home {
@@ -220,4 +227,16 @@ h1#media {
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
+}
+
+.icon-quote-left {
+  font-size: 18px;
+  vertical-align: text-top;
+  margin-right: 10px;
+}
+
+.icon-quote-right {
+  font-size: 18px;
+  vertical-align: text-top;
+  margin-left: 10px;
 }
