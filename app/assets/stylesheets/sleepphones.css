@@ -64,6 +64,17 @@ li [class^="icon-"]:hover {
   color: #666699;
 }
 
+.blog .content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.blog .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .home {
   background: #f5f5f5;
   border-bottom: 1px solid #e5e5e5;

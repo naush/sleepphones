@@ -1,47 +1,57 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-tw" lang="zh-tw">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sleepphones</title>
-  <meta content="authenticity_token" name="csrf-param">
-  <meta content="gqZ0JRl6XYKyo1qxheLJG0vKYLdL/YXhdth2Ak9dKbo=" name="csrf-token">
-  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css">
-  <link href="/assets/font-awesome.css?body=1" media="all" rel="stylesheet" type="text/css">
-  <link href="/assets/twitter-bootstrap-static/bootstrap.css?body=1" media="all" rel="stylesheet" type="text/css">
-  <link href="/assets/twitter-bootstrap-static/fontawesome.css?body=1" media="all" rel="stylesheet" type="text/css">
-  <link href="/assets/bootstrap_and_overrides.css?body=1" media="all" rel="stylesheet" type="text/css">
-  <link href="/assets/sleepphones.css?body=1" media="all" rel="stylesheet" type="text/css">
-  <link href="/assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
-</head>
-<body>
-  <div class="navbar navbar-fluid-top">
-    <div class="navbar-inner">
-      <div class="container-fluid">
-        <a class="brand wt064" href="#">聽音樂 × 睡好覺 × 睏乎飽</a>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleepphones</title>
+    <meta content="authenticity_token" name="csrf-param">
+    <meta content="gqZ0JRl6XYKyo1qxheLJG0vKYLdL/YXhdth2Ak9dKbo=" name="csrf-token">
+    <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css">
+    <link href="/assets/font-awesome.css?body=1" media="all" rel="stylesheet" type="text/css">
+    <link href="/assets/twitter-bootstrap-static/bootstrap.css?body=1" media="all" rel="stylesheet" type="text/css">
+    <link href="/assets/twitter-bootstrap-static/fontawesome.css?body=1" media="all" rel="stylesheet" type="text/css">
+    <link href="/assets/bootstrap_and_overrides.css?body=1" media="all" rel="stylesheet" type="text/css">
+    <link href="/assets/sleepphones.css?body=1" media="all" rel="stylesheet" type="text/css">
+    <link href="/assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  </head>
+  <body class="blog">
+    <div class="navbar navbar-fluid-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="brand wt064" href="/">聽音樂 × 睡好覺 × 睏乎飽</a>
+          <div class="container-fluid nav-collapse">
+            <ul class="nav">
+              <li><a href="/#home" title="首頁"><i class="icon-home"></i></a></li>
+              <li><a href="/#product" title="產品介紹"><i class="icon-headphones"></i></a></li>
+              <li><a href="/#shopping" title="馬上購買"><i class="icon-shopping-cart"></i></a></li>
+              <li><a href="/#media" title="新消息"><i class="icon-bullhorn"></i></a></li>
+              <li><a href="/blog" title="網誌"><i class="icon-pencil"></i></a></li>
+              <li><a href="/#contact" title="聯絡方式"><i class="icon-envelope"></i></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="container-fluid">
-    <div class="home">
-      <div class="row-fluid">
-        {{ content }}
+    <div class="container-fluid">
+      <div class="content">
+        <div class="row-fluid">
+          {{ content }}
+        </div>
       </div>
     </div>
-  </div>
 
-  <footer class="footer" id="contact">
-    <p class="notes">
-      <a href="http://www.facebook.com/SleepPhones" title=""><i class="icon-facebook-sign social-media"></i></a>
-      <a href="https://twitter.com/SleepPhones" title=""><i class="icon-twitter social-media"></i></a>
-      <a href="http://pinterest.com/sleepphones/" title=""><i class="icon-pinterest social-media"></i></a>
-    </p>
-    <p class="copy">
-      &copy; 2013 臺灣綿羊聲籟
-    </p>
-  </footer>
-  <script type="text/javascript">window.jfAsyncInit=function(){jf.main({'appId':'0bd50c03NlumDQfxXm8S6RIZFd433tkFngyuRqK78ka-PjL3_bbVpP3hEWbUn2E_eTRWpH4fIgSRkMoJGh2jU4UqIYm-uGKJferK3niETp_4_Ug6X5Ldpx_gEv_CpN-3KcihXSivFxjpJP0K-AFUUz59Ku0k5vfwLzenmR73fpnL0J8aiL8=','p':'9081','font':{'wt064':{'css':{'0':'.wt064'},'alias':'wt064'},'WCL-06':{'css':{'0':'.WCL-06'},'alias':'WCL-06'}}})};(function(){var c={'scriptTimeout':3000};var h=document.getElementsByTagName("html")[0];h.className+=" jf-loading";var e=setTimeout(function(){h.className=h.className.replace(/(\s|^)jf-loading(\s|$)/g," ");h.className+=" jf-inactive"},c.scriptTimeout);var jfscript=document.createElement("script");var d=false;jfscript.type="text/javascript";jfscript.async=true;jfscript.src='http://ds.justfont.com/js/stable/v/1.11/';jfscript.onload=jfscript.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded"){return}d=true;clearTimeout(e)};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(jfscript,s)})();</script>
-</body>
+    <footer class="footer" id="contact">
+      <p class="notes">
+        <a href="http://www.facebook.com/SleepPhones" title=""><i class="icon-facebook-sign social-media"></i></a>
+        <a href="https://twitter.com/SleepPhones" title=""><i class="icon-twitter social-media"></i></a>
+        <a href="http://pinterest.com/sleepphones/" title=""><i class="icon-pinterest social-media"></i></a>
+      </p>
+      <p class="copy">
+        &copy; 2013 臺灣綿羊聲籟
+      </p>
+    </footer>
+    <script type="text/javascript">window.jfAsyncInit=function(){jf.main({'appId':'0bd50c03NlumDQfxXm8S6RIZFd433tkFngyuRqK78ka-PjL3_bbVpP3hEWbUn2E_eTRWpH4fIgSRkMoJGh2jU4UqIYm-uGKJferK3niETp_4_Ug6X5Ldpx_gEv_CpN-3KcihXSivFxjpJP0K-AFUUz59Ku0k5vfwLzenmR73fpnL0J8aiL8=','p':'9081','font':{'wt064':{'css':{'0':'.wt064'},'alias':'wt064'},'WCL-06':{'css':{'0':'.WCL-06'},'alias':'WCL-06'}}})};(function(){var c={'scriptTimeout':3000};var h=document.getElementsByTagName("html")[0];h.className+=" jf-loading";var e=setTimeout(function(){h.className=h.className.replace(/(\s|^)jf-loading(\s|$)/g," ");h.className+=" jf-inactive"},c.scriptTimeout);var jfscript=document.createElement("script");var d=false;jfscript.type="text/javascript";jfscript.async=true;jfscript.src='http://ds.justfont.com/js/stable/v/1.11/';jfscript.onload=jfscript.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded"){return}d=true;clearTimeout(e)};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(jfscript,s)})();</script>
+  </body>
 </html>
