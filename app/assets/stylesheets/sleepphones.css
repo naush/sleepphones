@@ -80,12 +80,6 @@ li [class^="icon-"]:hover {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.void {
-  background: #f5f5f5;
-  border-bottom: 1px solid #e5e5e5;
-  height: 45px;
-}
-
 .product {
   background: #eeeeee;
 }
