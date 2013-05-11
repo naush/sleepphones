@@ -223,14 +223,16 @@ h1#media {
   padding-left: 0;
 }
 
-.icon-quote-left {
-  font-size: 18px;
-  vertical-align: text-top;
-  margin-right: 10px;
+.quote-left {
+  font-size: 60px;
+  position: relative;
+  top: 10px;
+  padding-right: 7px;
 }
 
-.icon-quote-right {
-  font-size: 18px;
-  vertical-align: text-top;
-  margin-left: 10px;
+.quote-right {
+  font-size: 60px;
+  position: relative;
+  top: 10px;
+  padding-left: 4px;
 }
