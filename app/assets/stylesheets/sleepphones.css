@@ -64,6 +64,10 @@ li [class^="icon-"]:hover {
   color: #666699;
 }
 
+.blog .row-fluid {
+  padding-top: 0;
+}
+
 .blog .content {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -73,6 +77,23 @@ li [class^="icon-"]:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.blog .span3 .sidebar-nav {
+  list-style-type: none;
+  font-size: 36px;
+  background-color: white;
+  border: 0;
+  box-shadow: none;
+  text-align: right;
+}
+
+.blog .span9 .blogs {
+  margin-left: 50px;
+}
+
+.blog .sidebar-nav a {
+  text-decoration: none;
 }
 
 .home {
@@ -248,4 +269,6 @@ h1.heading {
 
 div.youtube {
   text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }

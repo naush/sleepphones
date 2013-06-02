@@ -3,15 +3,26 @@ layout: default
 title: SleepPhones
 ---
 
-<div class="span3">
-  <div class="sidebar-nav">
-    <ul class="sidebar">
-      {% for post in site.posts %}
-        <li><span>{{ post.date | date: "%Y.%m.%d" }}</span> &raquo; <a href="/blog{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-
 <div class="span9">
+  <div class="blogs">
+    {% for post in site.posts %}
+      <div class="snippet">
+        <h3 class="post-item-title">
+          <a href="/blog{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+        <div class="post-item-meta">
+          <span class="post-item-author">
+            {{ post.author }}
+          </span>
+          &raquo;
+          <span>{{ post.date | date: "%Y.%m.%d" }}</span>
+        </div>
+        <div class="post-item-snippet">
+          {{ post.snippet }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>

@@ -16,27 +16,21 @@
     <link href="/assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
   </head>
   <body class="blog">
-    <div class="navbar navbar-fluid-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="brand wt064" href="/">聽音樂 × 睡好覺 × 睏乎飽</a>
-          <div class="container-fluid nav-collapse">
-            <ul class="nav">
+    <div class="container-fluid">
+      <div class="content">
+        <div class="row-fluid">
+          <div class="span9">
+            {{ content }}
+          </div>
+          <div class="span3">
+            <div class="well sidebar-nav">
               <li><a href="/#home" title="首頁"><i class="icon-home"></i></a></li>
               <li><a href="/#product" title="產品介紹"><i class="icon-headphones"></i></a></li>
               <li><a href="/#shopping" title="馬上購買"><i class="icon-shopping-cart"></i></a></li>
               <li><a href="/blog" title="新消息"><i class="icon-bullhorn"></i></a></li>
               <li><a href="/#contact" title="聯絡方式"><i class="icon-envelope"></i></a></li>
-            </ul>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="content">
-        <div class="row-fluid">
-          {{ content }}
         </div>
       </div>
     </div>

@@ -2,18 +2,10 @@
 layout: default
 ---
 
-<div class="span3">
-  <div class="sidebar-nav">
-    <ul class="sidebar">
-      {% for post in site.posts %}
-        <li><span>{{ post.date | date: "%Y.%m.%d" }}</span> &raquo; <a href="/blog{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-
 <div class="span9">
-  <div id="post">
-  {{ content }}
-  </div>
+  <div class="blogs">
+    <div id="post">
+      {{ content }}
+    </div>
+</div>
 </div>
