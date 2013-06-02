@@ -3,26 +3,24 @@ layout: default
 title: SleepPhones
 ---
 
-<div class="span9">
-  <div class="blogs">
-    {% for post in site.posts %}
-      <div class="snippet">
-        <h3 class="post-item-title">
-          <a href="/blog{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h3>
-        <div class="post-item-meta">
-          <span class="post-item-author">
-            {{ post.author }}
-          </span>
-          &raquo;
-          <span>{{ post.date | date: "%Y.%m.%d" }}</span>
-        </div>
-        <div class="post-item-snippet">
-          {{ post.snippet }}
-        </div>
+<div class="posts">
+  {% for post in site.posts %}
+    <div class="post">
+      <h3 class="post-item-title">
+        <a href="/blog{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+      <div class="post-item-meta">
+        <span class="post-item-author">
+          {{ post.author }}
+        </span>
+        &raquo;
+        <span>{{ post.date | date: "%Y.%m.%d" }}</span>
       </div>
-    {% endfor %}
-  </div>
+      <div class="post-item-snippet">
+        {{ post.snippet }}
+      </div>
+    </div>
+  {% endfor %}
 </div>
