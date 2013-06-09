@@ -8,7 +8,7 @@ body:lang(zh-tw) {
   font-family: WCL-06;
 }
 
-.navbar-inner {
+.navbar-fluid-top {
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,11 +16,36 @@ body:lang(zh-tw) {
   background-image: none;
   background-color: rgba(227, 228, 250, 0.9);
   border: 0;
+  height: 80px;
+}
+
+.navbar-fluid-top .container-fluid {
+  height: 100%;
+}
+
+.navbar-fluid-top .container-fluid .nav li {
+  margin-top: 18px;
+  margin-bottom: 20px;
+}
+
+.diviser {
+  height: 80px;
+  margin-bottom: 0;
+  background-color: #eeeeee;
 }
 
 .navbar .brand {
-  padding-top: 13px;
   color: #666699;
+  display: none;
+}
+
+.navbar .logo {
+  background-image: url(sleepphones-logo.png);
+  height: 50px;
+  width: 203px;
+  display: inline;
+  float: left;
+  margin-top: 15px;
 }
 
 ul.nav {
@@ -75,7 +100,7 @@ li [class^="icon-"]:hover {
 
 .media {
   background: #eeeeee;
-  height: 150px;
+  height: 125px;
 }
 
 .shopping {
@@ -83,8 +108,8 @@ li [class^="icon-"]:hover {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
   background-color: #f5f5f5;
-  height: 410px;
-  padding-top: 50px;
+  height: 390px;
+  padding-top: 25px;
 }
 
 .shopping .span12 {
@@ -92,7 +117,7 @@ li [class^="icon-"]:hover {
 }
 
 .shopping .row-fluid {
-  padding-top: 40px;
+  padding-top: 0;
   padding-bottom: 40px;
   margin-bottom: 0;
 }
@@ -156,7 +181,6 @@ li [class^="icon-"]:hover {
 }
 
 .home {
-  margin-top: -20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -167,13 +191,13 @@ h1.heading {
 }
 
 .row-fluid {
-  padding-top: 45px;
-  margin-bottom: 0px;
+  padding-top: 0;
+  margin-bottom: 0;
 }
 
 .row-fluid .product-description {
   padding-right: 50px;
-  padding: 15px;
+  padding-top: 50px;
   font-size: 18px;
 }
 
@@ -202,7 +226,7 @@ h1.heading {
 }
 
 .media .carousel-inner {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .row-fluid.media {
@@ -211,11 +235,14 @@ h1.heading {
 }
 
 .tooltip.bottom .tooltip-arrow {
-  border-bottom-color: #8888bb;
+  margin-top: 12px;
+  border-bottom-color: #666699;
 }
 
 .tooltip-inner {
-  background-color: #8888bb;
+  margin-top: 12px;
+  background-color: #666699;
+  font-size: 12px;
 }
 
 .container-fluid {
