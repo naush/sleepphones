@@ -1,8 +1,4 @@
 $(document).ready(function() {
-  $('ul.nav a').tooltip({
-    'placement': 'bottom'
-  });
-
   $('.flip').quickFlip();
   var flip = function() {
     var random = Math.round(Math.random() * $('.flip').size());

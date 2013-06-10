@@ -28,7 +28,7 @@ body:lang(zh-tw) {
 
 .navbar-fluid-top .container-fluid .nav li {
   font-size: 32px;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .diviser {
@@ -57,19 +57,19 @@ ul.nav {
   margin: 0 30px 0 0 !important;
 }
 
-.tooltip.bottom .tooltip-arrow {
-  margin-top: -3px;
-  border-bottom-color: #666699;
-}
-
-.tooltip-inner {
-  margin-top: -3px;
-  background-color: #666699;
-  font-size: 14px;
-}
-
 ul.sidebar {
   list-style-type: none;
+}
+
+ul.nav li div.text {
+  font-size: 14px !important;
+  text-align: center;
+  color: #666699;
+  margin-top: 3px;
+}
+
+i [class^="icon-"] {
+  display: block !important;
 }
 
 li [class^="icon-"] {
