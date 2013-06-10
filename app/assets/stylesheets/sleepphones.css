@@ -27,8 +27,8 @@ body:lang(zh-tw) {
 }
 
 .navbar-fluid-top .container-fluid .nav li {
-  font-size: 40px;
-  margin-top: 11px;
+  font-size: 32px;
+  margin-top: 25px;
 }
 
 .diviser {
@@ -55,6 +55,17 @@ ul.nav {
   font-size: 28px;
   float: right !important;
   margin: 0 30px 0 0 !important;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  margin-top: -3px;
+  border-bottom-color: #666699;
+}
+
+.tooltip-inner {
+  margin-top: -3px;
+  background-color: #666699;
+  font-size: 14px;
 }
 
 ul.sidebar {
@@ -258,17 +269,6 @@ h1.heading {
 .row-fluid.media {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.tooltip.bottom .tooltip-arrow {
-  margin-top: 3px;
-  border-bottom-color: #666699;
-}
-
-.tooltip-inner {
-  margin-top: 3px;
-  background-color: #666699;
-  font-size: 16px;
 }
 
 .container-fluid {
