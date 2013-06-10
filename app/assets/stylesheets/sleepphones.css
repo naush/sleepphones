@@ -28,7 +28,6 @@ body:lang(zh-tw) {
 
 .navbar-fluid-top .container-fluid .nav li {
   font-size: 32px;
-  margin-top: 10px;
 }
 
 .diviser {
@@ -51,14 +50,28 @@ body:lang(zh-tw) {
   margin-left: 15px;
 }
 
+ul.sidebar {
+  list-style-type: none;
+}
+
 ul.nav {
   font-size: 28px;
   float: right !important;
-  margin: 0 30px 0 0 !important;
+  margin: 0 !important;
+  height: 100%;
 }
 
-ul.sidebar {
-  list-style-type: none;
+ul.nav li {
+  height: 100%;
+  display: table !important;
+}
+
+ul.nav li a {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 ul.nav li div.text {
