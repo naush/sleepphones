@@ -1,0 +1,65 @@
+html, body {
+  background-color: white;
+  height: 100%;
+}
+
+body a:link {
+  text-decoration: none;
+}
+
+.container-fluid {
+  height: auto;
+  min-height: 600px;
+}
+
+.span3 .sidebar-nav {
+  list-style-type: none;
+  font-size: 36px;
+  background-color: white;
+  border: 0;
+  box-shadow: none;
+  text-align: right;
+}
+
+.span9 .posts {
+  margin-left: 50px;
+  height: 100%;
+}
+
+.span9 .blog-post {
+  margin-left: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  height: 100%;
+}
+
+.span9 .posts .post {
+  border-bottom: 1px solid #E3E4FA;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.span9 .post .post-item-title a:link,
+.span9 .post .post-item-title a:visited {
+  color: #443344;
+}
+
+.span9 .post .post-item-meta {
+  color: #b3b3b1;
+}
+
+.span9 .post .post-item-snippet {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sidebar-nav a {
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+  bottom: 0;
+}
