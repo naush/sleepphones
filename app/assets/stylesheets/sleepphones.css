@@ -208,6 +208,11 @@ div.product {
 .product .row-fluid {
   margin-bottom: 0;
   padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.product h3 {
+  color: #998BC2;
 }
 
 .home img.welcome-splash {
