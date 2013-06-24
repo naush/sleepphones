@@ -2,7 +2,11 @@ html, body {
   height: 100%;
   color: #443344;
   background-color: rgba(0, 0, 0, .2);
-};
+}
+
+body a:link {
+  text-decoration: none;
+}
 
 body:lang(zh-tw) {
   font-family: WCL-06;
